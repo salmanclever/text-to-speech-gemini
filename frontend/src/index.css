@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f6f8; /* Light grey background, MUI will override with CssBaseline */
+}
+
+/* Ensure Vazirmatn is primary for body if not handled by MUI early enough */
+body, html {
+  font-family: "Vazirmatn", "Roboto", sans-serif !important;
+}
